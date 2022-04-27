@@ -98,9 +98,9 @@
     });
     $(function() {
         setInterval(() => {
-          var width = $('.center--ZyfFaC').innerWidth()+115;
+          var width = document.getElementsByClassName('center--ZyfFaC')[0].clientWidth+115;
           console.log(width);
-          $('body,html').css('background-position-x', width+'px');
+          document.body.style.backgroundPositionX= width+'px' ;
         }, 100);
     });
     
