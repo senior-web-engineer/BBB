@@ -101,9 +101,10 @@
         // Initialize your application or run some code.
 
         setInterval(() => {
-          var width = document.getElementsByClassName('center--ZyfFaC')[0].clientWidth/2+625;
-          console.log(width);
-          document.body.style.backgroundPositionX= width+'px' ;
+          var bodyWidth = document.getElementsByTagName('body')[0].clientWidth;
+          var elWidth = document.getElementsByClassName('center--ZyfFaC')[0].clientWidth/2+60;
+
+          document.body.style.backgroundPositionX= bodyWidth-elWidth+'px' ;
         }, 100);
       }
 }
