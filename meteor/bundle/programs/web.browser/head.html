@@ -96,6 +96,14 @@
     document.addEventListener('gesturestart', function (e) {
       e.preventDefault();
     });
+    $(function() {
+        setInterval(() => {
+          var width = $('.center--ZyfFaC').innerWidth()+115;
+          console.log(width);
+          $('body,html').css('background-position-x', width+'px');
+        }, 100);
+    });
+    
   </script>
   <script src="compatibility/adapter.js?v=2554" language="javascript"></script>
   <script src="compatibility/sip.js?v=2554" language="javascript"></script>
