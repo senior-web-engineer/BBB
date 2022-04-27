@@ -96,13 +96,17 @@
     document.addEventListener('gesturestart', function (e) {
       e.preventDefault();
     });
-    $(function() {
+    document.onreadystatechange = function () {
+    if (document.readyState == "interactive") {
+        // Initialize your application or run some code.
+
         setInterval(() => {
           var width = document.getElementsByClassName('center--ZyfFaC')[0].clientWidth+115;
           console.log(width);
           document.body.style.backgroundPositionX= width+'px' ;
         }, 100);
-    });
+      }
+}
     
   </script>
   <script src="compatibility/adapter.js?v=2554" language="javascript"></script>
