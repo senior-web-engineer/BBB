@@ -1,0 +1,29 @@
+{
+    "seeded": {
+        "core18": {
+            "from_channel": "stable",
+            "to_channel": "stable",
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-3-34-1804": {
+            "metapkg": "ubuntu-desktop"
+        },
+        "gtk-common-themes": {
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-calculator": {
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-characters": {
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-logs": {
+            "metapkg": "ubuntu-desktop"
+        },
+        "gnome-system-monitor": {
+            "metapkg": "ubuntu-desktop"
+        }
+    },
+    "unseeded": {
+    }
+}
