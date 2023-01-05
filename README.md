@@ -1,4 +1,6 @@
 Big Blue Button Customization Example
 
-#contact me
-skype: live:.cid.2c6d651287d6edc3
+
+#contact me on skype: 
+
+live:.cid.2c6d651287d6edc3
